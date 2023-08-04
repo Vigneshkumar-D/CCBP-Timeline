@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.course-timeline-card-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  text-align: left;
+  margin: 10px;
+}
+.sub-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+.duration-container-course-timeline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70px;
+}
+.language-con {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.lan-item {
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 4px;
+  background-color: gray;
+  padding: 6px;
+  border-radius: 5px;
+}
